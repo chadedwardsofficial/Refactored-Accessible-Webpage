@@ -11,6 +11,9 @@ body {
     background-color: #d9dcd6;
 }
 
+
+/* Styling for Header */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,6 +48,7 @@ body {
 }
 
 /* These two selectors style the font color and size */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -65,16 +69,12 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* Styling for the images in the main content section */
+
+.float-left, .float-right {
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
@@ -136,6 +136,7 @@ p {
 
 
 /* Styling for Footer Section - Including Font Style */
+
 .footer {
     padding: 30px;
     clear: both;
